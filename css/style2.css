@@ -1,0 +1,87 @@
+/* &display=swap */
+
+@import "null.css";
+/* ------------------------------это подсказки для себя-------------------- */
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"); */
+/* font-style: normal;  можно эти стили не писать они идут по умолчанию  */
+/* font-weight: normal;  можно эти стили не писать они идут по умолчанию  */
+/* font-size: 16px;  по умолчанию*/
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+body {
+   max-width: 810px;
+   margin: 0 auto;
+}
+.main {
+   font-family: "Lato", sans-serif;
+   line-height: 160%;
+   color: #424551;
+   text-align: left;
+   margin-bottom: 60px;
+}
+
+h1 {
+   color: #1e212c;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   margin-bottom: 26px;
+}
+.div-span {
+   margin-bottom: 40px;
+}
+.span-1 {
+   background: url("../img/Calendar.jpg") 3px 2px no-repeat;
+   min-height: 16px;
+   margin: 0px 24px 0px 0px;
+   padding: 0px 0px 0px 27px;
+}
+.span-2 {
+   background: url("../img/Clock.jpg") 0 2px no-repeat;
+   min-height: 16px;
+   padding: 0px 0px 0px 24px;
+}
+.img {
+   margin-bottom: 60px;
+}
+.div-1 {
+   font-size: 20px;
+   font-weight: 700;
+   color: #1e212c;
+   margin-bottom: 24px;
+}
+.div-2 {
+   margin-bottom: 24px;
+}
+.div-2-2 {
+   margin-bottom: 48px;
+}
+.div-3 {
+   background: url("../img/braces.jpg") 0 0 no-repeat;
+   font-weight: 700;
+   padding-left: 58px;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1e212c;
+   margin-bottom: 48px;
+}
+.div-4 {
+   margin-bottom: 24px;
+}
+.ul {
+   margin-bottom: 24px;
+}
+.li {
+   background: url("../img/check.jpg") 0 5px no-repeat;
+   padding-left: 32px;
+   margin-bottom: 4px;
+   min-height: 16px;
+}
+
+.footer {
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+}

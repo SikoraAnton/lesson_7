@@ -1,0 +1,62 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ------------------------------это подсказки для себя-------------------- */
+/* font-style: normal;  можно эти стили не писать они идут по умолчанию  */
+/* font-weight: normal;  можно эти стили не писать они идут по умолчанию  */
+/* font-size: 16px;  по умолчанию*/
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+body {
+   font-family: "Lato", sans-serif;
+   max-width: 390px;
+   margin: 0 auto;
+}
+
+.div {
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1e212c;
+   margin: 8px 0px;
+}
+
+.h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 60px;
+   color: #1e212c;
+   margin: 0px 0px 40px 0px;
+}
+
+.ul {
+   margin-bottom: 48px;
+}
+.li {
+   background: url("../img/check.jpg") 0 5px / 16px no-repeat;
+   padding-left: 32px;
+   margin-bottom: 12px;
+   min-height: 16px;
+   line-height: 26px;
+   color: #424551;
+}
+.button {
+   display: inline-block;
+   background-color: rgba(248, 90, 13, 1);
+   border-radius: 4px;
+   padding: 17px 28px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: white;
+}
+
+/* .footer {
+   text-align: center;
+   width: 100%;
+   display: inline-block;
+} */
